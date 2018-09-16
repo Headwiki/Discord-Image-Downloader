@@ -1,0 +1,19 @@
+{
+  "name": "discord-image-downloader",
+  "version": "1.0.0",
+  "description": "Download images from Discord channels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Headwiki/discord-image-downloader.git"
+  },
+  "author": "Henrik Hedlund Andersen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Headwiki/Discord-Image-Downloader/issues"
+  },
+  "homepage": "https://github.com/Headwiki/Discord-Image-Downloader#readme"
+}
