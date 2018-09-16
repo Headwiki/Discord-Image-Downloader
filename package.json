@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Headwiki/Discord-Image-Downloader/issues"
   },
-  "homepage": "https://github.com/Headwiki/Discord-Image-Downloader#readme"
+  "homepage": "https://github.com/Headwiki/Discord-Image-Downloader#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "mkdirp": "^0.5.1",
+    "request": "^2.88.0"
+  }
 }
