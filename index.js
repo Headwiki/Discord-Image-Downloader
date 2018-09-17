@@ -13,13 +13,13 @@ client.on("ready", () => {
     console.log("Starting.");
     client.user.setActivity(`Looking for images`);
 
-    const channelId = '451879432601206794';
+    const channelId = '';
 
     // Get channel
-    const henChannel = client.channels.get(channelId);
+    const channel = client.channels.get(channelId);
 
     // Get all messages
-    henChannel.fetchMessages({ limit: 0 })
+    channel.fetchMessages({ limit: 0 })
         .then(messages => 
             messages.forEach(message => {
                 const dir = './images/' + message.channel.name + '/';
