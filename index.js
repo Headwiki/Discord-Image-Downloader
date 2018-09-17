@@ -1,7 +1,7 @@
 const fs = require('fs');
 const request = require('request');
 const Discord = require("discord.js");
-var mkdirp = require('mkdirp');
+const mkdirp = require('mkdirp');
 
 const client = new Discord.Client();
 const config = require("./config.json");
