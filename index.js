@@ -1,10 +1,10 @@
 const fs = require('fs');
 const request = require('request');
-const Discord = require("discord.js");
+const Discord = require('discord.js');
 const mkdirp = require('mkdirp');
 
 const client = new Discord.Client();
-const config = require("./config.json");
+const config = require('./config.json');
 
 client.on("ready", () => {
 
